@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Kanit', sans-serif;
+    color: $color-one;
+    font-weight: 400;
+}
+body{
+    background-image: url('../assets/img/fondo-marco.jpg');
+    background-size:cover;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width:80%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.desktop-hide{
+    display: none;
+}
+
+
