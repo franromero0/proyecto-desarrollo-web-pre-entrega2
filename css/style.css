@@ -36,6 +36,11 @@ body {
 .desktop-hide {
   display: none; }
 
+.line {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5rem; }
+
 .first-bg {
   height: 800px;
   background-color: rgba(255, 255, 255, 0.068);
@@ -655,6 +660,11 @@ body {
 
 .desktop-hide {
   display: none; }
+
+.line {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5rem; }
 
 .header-index {
   display: flex;
@@ -1285,14 +1295,14 @@ footer .footer-desktop-hide {
   .menu-hamburguesa {
     display: none; }
   .menu-hamburguesa:checked + .ul-links {
-    height: calc(100vh - 80px); }
+    height: calc(100vh - 90px); }
   .list-icon {
     color: text-color-light;
     cursor: pointer; }
   .ul-links {
     width: 100%;
     position: absolute;
-    top: 97px;
+    top: 95px;
     left: 0;
     height: 0;
     display: flex;
@@ -1306,7 +1316,7 @@ footer .footer-desktop-hide {
     background-image: url("../assets/img/fondo-marco.jpg"); }
     .ul-links li {
       width: 100%;
-      height: 6.25rem;
+      height: 3rem;
       text-align: center;
       align-content: center; }
       .ul-links li a {
@@ -1316,8 +1326,6 @@ footer .footer-desktop-hide {
         color: #DDDDDD;
         font: bold;
         text-transform: uppercase;
-        padding: 2rem;
-        margin: 0;
         text-align: center; }
         .ul-links li a:hover {
           filter: brightness(1.4); }
@@ -1501,7 +1509,8 @@ footer .footer-desktop-hide {
       margin: 0;
       max-width: 100%;
       font-size: 1.5rem;
-      font-weight: 200; }
+      font-weight: 200;
+      max-width: 17.75rem; }
     .first-bg .first-section .button-light {
       margin: 0;
       margin-top: 2rem;
@@ -1514,31 +1523,34 @@ footer .footer-desktop-hide {
         width: 65px; }
         .first-bg .first-section ul li a img:hover {
           width: 70px; }
-  .latest-prod h2 {
-    margin-top: 20rem;
-    font-size: 1.5rem; }
-  .latest-prod .productions-bg {
-    width: 100%;
-    background-color: transparent;
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between; }
-    .latest-prod .productions-bg a img {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      width: 280px; }
+  .latest-prod {
+    margin-bottom: 10rem; }
+    .latest-prod h2 {
+      font-size: 2rem;
+      margin-top: 2rem; }
+    .latest-prod .productions-bg {
+      width: 100%;
+      background-color: transparent;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between; }
+      .latest-prod .productions-bg a img {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 280px; }
   .talent-section h2 {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
   .talent-section p {
     font-size: 1rem;
-    max-width: 25rem;
+    max-width: 15rem;
     font-weight: 200; }
   .talent-section .talent-search-bg {
-    height: auto;
+    height: 40rem;
     width: 90%; }
     .talent-section .talent-search-bg form .talent-search {
-      flex-direction: column; }
+      flex-direction: column;
+      gap: 0; }
       .talent-section .talent-search-bg form .talent-search .talent-input textarea {
         width: 15rem;
         height: 10rem; }

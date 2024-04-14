@@ -65,7 +65,7 @@
         display: none;
     }
     .menu-hamburguesa:checked + .ul-links{
-        height: calc(100vh - 80px);
+        height: calc(100vh - 90px);
     }
     .list-icon {
         color: text-color-light;
@@ -74,7 +74,7 @@
     .ul-links {
         width: 100%;
         position: absolute;
-        top: 97px;
+        top: 95px;
         left: 0;
         height: 0;   
         display: flex;
@@ -89,7 +89,7 @@
         li{
             // #dddddd7c  Color que estaba antes por las dudas
             width: 100%;
-            height: 6.25rem;
+            height: 3rem;
             text-align: center;
             align-content: center;      
             a{
@@ -99,8 +99,7 @@
                 color: $color-one;
                 font: bold;
                 text-transform: uppercase;   
-                padding: 2rem ;
-                margin: 0;
+
                 text-align: center;
                 &:hover{
                     filter:brightness(1.4);
@@ -205,6 +204,7 @@
         }
     }
     .latest-prod{
+        
         h2{ 
             margin-top: 20rem;
             font-size: 2.5rem;
@@ -375,6 +375,7 @@
                 max-width: 100%;
                 font-size: 1.5rem;
                 font-weight: 200;
+                max-width: 17.75rem;
             }
             .button-light{
                 margin: 0;
@@ -396,9 +397,11 @@
         }
     }
     .latest-prod{
+        margin-bottom: 10rem;
         h2{ 
-            margin-top: 20rem;
-            font-size: 1.5rem;
+            font-size: 2rem;
+            margin-top: 2rem;
+
         }
         .productions-bg{
             width: 100%;
@@ -417,24 +420,26 @@
     }
     .talent-section{
         h2{
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
         p{
             font-size: 1rem;
-            max-width: 25rem;
+            max-width: 15rem;
             font-weight: 200;
         }
         .talent-search-bg{
-            height: auto;
+            height: 40rem;
             width: 90%;
             
             form{
                 .talent-search{
                     flex-direction: column;
+                    gap: 0;
                     .talent-input{
                         textarea{
                             width: 15rem;
                             height: 10rem;
+                            
                         }
                         input{
                             width: 15rem;
