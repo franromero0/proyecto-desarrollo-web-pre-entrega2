@@ -222,6 +222,19 @@
             }
         }
     }
+    .new-sletter{
+        h3{
+            font-size: 1.3rem;
+        }
+        form{
+            input{
+                width: 20rem;
+            }
+        }
+        p{
+            margin-right: 1rem;
+        }
+    }
     .talent-section{
         h2{
             font-size: 2.5rem;
@@ -249,8 +262,13 @@
             }
         }
     }
+
+    .line{
+        display: none;
+    }
 }
 @media (max-width: 576px){
+
     .second-bg{
         width: 100%;
         background-color: rgba(255, 255, 255, 0);  
@@ -284,11 +302,40 @@
         }
 
     }
-        /* Contact page MOBILE */
+    .new-sletter{
+        flex-direction: column;
+        height: auto;
+        background-color: $bg;
+        h3{
+            font-size: 1.5rem;
+            max-width: auto;
+            margin-top: 2rem;
+            color: $color-one;
+            margin-bottom: 1rem;
+        }
+        form{
+            input{
+                width: 15rem;
+            }
+            .new-sletter-btn{
+                max-width: 40%;
+            }
+        }
+        p{
+            margin-right: 1rem;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            color: $color-one;
+            
+        }
+    }   /* Contact page MOBILE */
          /* PRODUCTS PAGE */
     
 }
 @media (max-width: 425px){
+    .line{
+        display: block;
+    }
     /* Contact page MOBILE */
     .second-bg{
         .contact-order{
