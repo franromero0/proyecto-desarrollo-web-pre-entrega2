@@ -2,7 +2,7 @@
 ## Alumno Francisco Nahuel Romero
 El proyecto trata de un emprendimiento dedicada a la producción musical y venta de productos digitales para otras personas que se dediquen al rubro.
 
-				[![](https://i.imgur.com/KOxlpcz.png)](http://https://i.imgur.com/KOxlpcz.png)
+[![](https://i.imgur.com/KOxlpcz.png)](http://https://i.imgur.com/KOxlpcz.png)
 
 Se eligió esta marca debido a la cercanía que see posee directamente con el dueño con el fin de poner en practica con una empresa real los conocimientos adquiridos en el curso y así obtener un feedback del 'cliente'.
 
