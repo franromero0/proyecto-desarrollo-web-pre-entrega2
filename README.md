@@ -31,14 +31,14 @@ En este proyecto se utilizaron las siguientes tecnlogías:
 **- Utilizar SASS en el proyecto ✔**
 
 **- Utilizar nesting - variables - partials en SASS ✔**
-Se utilizó nesting entre las clases con el fin de optimizar tiempo a la hora de reescribir en SASS todo el código previamente realizado. Se tiene en cuenta la facilidad que brindará en un futuro y la reducción de código a la que puede llevar usar nesting sin la necesidad de crear clases para cada elemento.
-Las variables están pensadas estrategicamente para poder cambiar colores de todos los elementos que estén relacionados sin perder la estetica de la web. Mientras que los partials abarcan porciones medianas de código.
+  Se utilizó nesting entre las clases con el fin de optimizar tiempo a la hora de reescribir en SASS todo el código previamente realizado. Se tiene en cuenta la facilidad que brindará en un futuro y la reducción de código a la que puede llevar usar nesting sin la necesidad de crear clases para cada elemento.
+  Las variables están pensadas estrategicamente para poder cambiar colores de todos los elementos que estén relacionados sin perder la estetica de la web. Mientras que los partials abarcan porciones medianas de código.
 
 **- Tener al menos 3 HTML full responsive ✔**
-Los archivos HTML full responsive hasta la entrega 3 son: 'contact.html' - 'products.html' - 'index.html'.
+  Los archivos HTML full responsive hasta la entrega 3 son: 'contact.html' - 'products.html' - 'index.html'.
 
 **- Agregar SEO a todos los archivos HTML ✔**
-Todos los archivos HTML cuentan con etiquetas personalizadas que ayudarán a mejorar el posicionamiento en los motores de búsqueda de Google.
+  Todos los archivos HTML cuentan con etiquetas personalizadas que ayudarán a mejorar el posicionamiento en los motores de búsqueda de Google.
 
 
 ### RESPONSIVE
