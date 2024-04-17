@@ -180,10 +180,13 @@ body {
     .latest-prod .productions-bg a img {
       width: 350px;
       margin-top: 4.5rem;
-      filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37)); }
+      filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37));
+      filter: grayscale(0.25); }
       .latest-prod .productions-bg a img:hover {
-        transform: scale(1.02);
-        cursor: pointer; }
+        transform: scale(1.1);
+        cursor: pointer;
+        transition: transform 250ms linear;
+        filter: grayscale(0); }
   .latest-prod .ver-mas {
     background-color: #DDDDDD;
     text-decoration: none;
@@ -193,7 +196,7 @@ body {
     border-radius: 45px;
     font-size: 1.25rem;
     font-weight: 500;
-    width: 10rem;
+    width: 20rem;
     border: 2px solid #DDDDDD;
     filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37)); }
     .latest-prod .ver-mas:hover {
@@ -201,6 +204,17 @@ body {
       color: #DDDDDD;
       cursor: pointer;
       filter: drop-shadow(-12px 16px 12px rgba(0, 0, 0, 0.349)); }
+
+.spotify-embed {
+  align-content: center;
+  background-color: rgba(255, 255, 255, 0.068);
+  display: flex;
+  justify-content: center;
+  padding: 6rem 0;
+  margin-bottom: 8rem; }
+  .spotify-embed iframe {
+    width: 60%;
+    height: 400px; }
 
 .new-sletter {
   align-content: center;
@@ -241,7 +255,8 @@ body {
       .new-sletter form .new-sletter-btn:hover {
         background-color: #DDDDDD;
         color: #2E2E2E;
-        border: 1px solid #2E2E2E; }
+        border: 1px solid #2E2E2E;
+        cursor: pointer; }
   .new-sletter p {
     color: #2E2E2E;
     font-weight: 200;
@@ -980,10 +995,13 @@ body {
     .latest-prod .productions-bg a img {
       width: 350px;
       margin-top: 4.5rem;
-      filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37)); }
+      filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37));
+      filter: grayscale(0.25); }
       .latest-prod .productions-bg a img:hover {
-        transform: scale(1.02);
-        cursor: pointer; }
+        transform: scale(1.1);
+        cursor: pointer;
+        transition: transform 250ms linear;
+        filter: grayscale(0); }
   .latest-prod .ver-mas {
     background-color: #DDDDDD;
     text-decoration: none;
@@ -993,7 +1011,7 @@ body {
     border-radius: 45px;
     font-size: 1.25rem;
     font-weight: 500;
-    width: 10rem;
+    width: 20rem;
     border: 2px solid #DDDDDD;
     filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37)); }
     .latest-prod .ver-mas:hover {
@@ -1001,6 +1019,17 @@ body {
       color: #DDDDDD;
       cursor: pointer;
       filter: drop-shadow(-12px 16px 12px rgba(0, 0, 0, 0.349)); }
+
+.spotify-embed {
+  align-content: center;
+  background-color: rgba(255, 255, 255, 0.068);
+  display: flex;
+  justify-content: center;
+  padding: 6rem 0;
+  margin-bottom: 8rem; }
+  .spotify-embed iframe {
+    width: 60%;
+    height: 400px; }
 
 .new-sletter {
   align-content: center;
@@ -1041,7 +1070,8 @@ body {
       .new-sletter form .new-sletter-btn:hover {
         background-color: #DDDDDD;
         color: #2E2E2E;
-        border: 1px solid #2E2E2E; }
+        border: 1px solid #2E2E2E;
+        cursor: pointer; }
   .new-sletter p {
     color: #2E2E2E;
     font-weight: 200;
@@ -1423,11 +1453,11 @@ body {
         transform: scale(1.1); }
 
 @media (min-width: 1650px) {
-  .logo img {
+  .first-bg .logo img {
     width: 400px;
-    margin-left: 4rem; }
-    .logo img .first-section {
-      margin-left: 16rem; } }
+    margin-left: 8rem; }
+  .first-bg .first-section {
+    margin-left: 10rem; } }
 
 @media (max-width: 1440px) {
   .service-card {
@@ -1628,6 +1658,11 @@ body {
     .second-bg .product-order .product-articles .product-card article p {
       color: #DDDDDD;
       font-weight: 400; }
+  .spotify-embed {
+    background-color: transparent;
+    margin-bottom: 1rem; }
+    .spotify-embed iframe {
+      width: 25rem; }
   .new-sletter {
     flex-direction: column;
     height: auto;
@@ -1641,7 +1676,12 @@ body {
     .new-sletter form input {
       width: 15rem; }
     .new-sletter form .new-sletter-btn {
-      max-width: 40%; }
+      max-width: 40%;
+      background-color: transparent;
+      border: 1px solid #DDDDDD; }
+      .new-sletter form .new-sletter-btn:hover {
+        background-color: #DDDDDD;
+        color: #2E2E2E; }
     .new-sletter p {
       margin-right: 1rem;
       margin-bottom: 2rem;

@@ -6,14 +6,17 @@
 @import "../pages";
 
 @media (min-width: 1650px){
-
-    .logo img{
-        width:400px;
-        margin-left: 4rem;
-    .first-section{
-        margin-left: 16rem;
+    .first-bg{
+        .logo img{
+            width:400px;
+            margin-left: 8rem;
         }
-}}
+        .first-section{
+            margin-left: 10rem;
+            }
+    }
+}
+
 @media (max-width: 1440px){
     .service-card{
         width: 400px;
@@ -302,6 +305,13 @@
         }
 
     }
+    .spotify-embed{
+        background-color: transparent;
+        margin-bottom: 1rem;
+        iframe{
+            width: 25rem;
+        }
+    }
     .new-sletter{
         flex-direction: column;
         height: auto;
@@ -319,6 +329,12 @@
             }
             .new-sletter-btn{
                 max-width: 40%;
+                background-color: transparent;
+                border: 1px solid $color-one;
+                &:hover{
+                    background-color: $color-one;
+                    color: $color-three;
+                }
             }
         }
         p{
