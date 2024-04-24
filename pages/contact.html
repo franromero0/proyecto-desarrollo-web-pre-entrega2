@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-out">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,7 @@
         <link rel="shortcut icon" href="../assets/img/logo-nav-bar.ico" type="image/x-icon">
         <meta name="keywords" content="Contacto Blogo, Consultas Blogo, Soporte Blogo, Información Blogo, Ayuda Blogo">
         <title>Blogo | Contacto</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <meta name="description" content="Conéctate con nosotros para consultas y pedidos. ¡Estamos aquí para ayudarte! Encuentra nuestros detalles de contacto.">
         <meta name="copyright" content="BLOGO Music S.A">
         <meta property="og:title" content="Blogo Music">
@@ -21,7 +22,7 @@
         <meta property="og:type" content="article">
         <meta property="og:image" content="https://i.imgur.com/0jeifba.png">
     </head>
-<body>
+<body class="bg-filter">
     <header class="header-index ">
         <div class="site-logo">
             <a href="../index.html">
@@ -31,10 +32,10 @@
         <nav class="nav-bar mobile-hide">
             <div>
                 <ul class="nav-list">
-                    <li><a href="../index.html">Inicio</a></li><!-- Cuando este posicionado en la pagina para que no se recargue ponemos el # -->
+                    <li><a href="../index.html">home</a></li><!-- Cuando este posicionado en la pagina para que no se recargue ponemos el # -->
                     <li><a href="./services.html">Servicios</a></li>
                     <li><a href="./products.html">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a class="active" href="#">Contacto</a></li>
                     <li><a href="./about-us.html">Sobre Nosotros</a></li>
                 </ul>
             </div>
@@ -43,17 +44,15 @@
         <div class="mobile-menu desktop-hide">
             
             <label for="menu_hamburguesa">
-                <svg class="list-icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                </svg>
+                <i class="fa-solid fa-bars"></i>
             </label>
             <input class="menu-hamburguesa"type="checkbox" id="menu_hamburguesa">
-            <ul class="ul-links">
+            <ul class="ul-links bg-filter">
                 <li ><a href="../index.html">inicio</a></li>
                 <li ><a href="../pages/services.html">servicios</a></li>
                 <li ><a href="../pages/products.html">productos</a></li>
                 <li><a href="../pages/about-us.html">sobre nosotros</a></li>
-                <li><a href="#">contacto</a></li>
+                <li><a class="active" href="./contact.html"">contacto</a></li>
             </ul>
 
         </div>
@@ -63,7 +62,7 @@
             <div class="second-bg">
                 <div class="contact-order">  
                     <div class="contact-content">
-                        <h2 data-aos="fade-down"
+                        <h2 class="bg-shadow" data-aos="fade-down"
                         data-aos-anchor-placement="top-bottom" data-aos-duration="1000">¡Mandame un mensaje!</h2>
                         <div class="contact-bg" data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
@@ -73,12 +72,19 @@
                                 <input type="text" placeholder="Teléfono">
                                 <input type="text" placeholder="E-mail">
                                 <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                                <input class="button-contact" type="submit" value="Enviar">
+                                <span class="button-contact">
+                                    <button class="custom-button" type="submit">
+                                      <i class="fa-regular fa-paper-plane" data-aos="fade-right" data-aos-duration="200" data-aos-easing="ease-in"></i>
+                                      Enviar
+                                    </button>
+                                </span>
+                                  
+                                
                             </form>
                         </div>
                     </div>
                     <div class="contact-content">
-                        <h2 data-aos="fade-down"
+                        <h2 class="bg-shadow" data-aos="fade-down"
                         data-aos-anchor-placement="top-bottom" data-aos-duration="1000">Contactame</h2>
                         <div class="contact-bg" data-aos="flip-right"
                         data-aos-easing="ease-out-cubic"
@@ -112,7 +118,7 @@
         <div class="container row space-between mobile-hide">
             <div class="footer-one">
                 <h3>BLOGO</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, impedit!</p>
+                <p>Dedicados a la producción musical, especializados en crear sonidos innovadores.</p>
             </div>
             <div class="footer-one footer-font-size" >
                 <h3>Explore</h3>
